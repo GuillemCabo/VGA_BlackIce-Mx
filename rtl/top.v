@@ -32,14 +32,14 @@ module top (
     wire HS,VS;
     wire rstn;
     //pmod1
-    assign PMOD[0] = R0;
-    assign PMOD[1] = R1;
-    assign PMOD[2] = R2;
-    assign PMOD[3] = R3;
-    assign PMOD[4] = B0;
-    assign PMOD[5] = B1;
-    assign PMOD[6] = B2;
-    assign PMOD[7] = B3;
+    assign PMOD[0] = B0;
+    assign PMOD[1] = B1;
+    assign PMOD[2] = B2;
+    assign PMOD[3] = B3;
+    assign PMOD[4] = R0;
+    assign PMOD[5] = R1;
+    assign PMOD[6] = R2;
+    assign PMOD[7] = R3;
     //pmod2
     assign PMOD[8] = HS;
     assign PMOD[9] = VS;
